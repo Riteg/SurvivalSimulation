@@ -160,9 +160,9 @@ namespace SurvivalSimulation.UI.Windows
 
             SimulationManager.tempEnemy.SetName(response);
 
-            _inputs.Add(new($"Enter the {response}'s health points", SetEnemyHealth));
+            _inputs.Add(new($"Enter the {response}'s health", SetEnemyHealth));
 
-            _inputs.Add(new($"Enter the {response}'s hit points", SetEnemyDamage));
+            _inputs.Add(new($"Enter the {response}'s damage", SetEnemyDamage));
 
             _inputs.Add(new($"Enter the {response}'s position (in meters)", SetEnemyPosition));
         }
