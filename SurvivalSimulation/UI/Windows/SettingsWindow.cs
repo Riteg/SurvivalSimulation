@@ -22,7 +22,7 @@ namespace SurvivalSimulation.UI.Windows
             new("H","Toggle Show Fights",(_)=>{
                 SimulationManager.ToggleShowFights();
             }),
-            new("R","Generate Random",(_)=>{
+            new("R","Toggle Generate Random",(_)=>{
                 SimulationManager.ToggleGenerateRandom();
             }),
             new("Q", "Quit", (_) => Environment.Exit(0))

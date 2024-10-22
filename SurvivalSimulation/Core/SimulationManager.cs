@@ -78,7 +78,7 @@ namespace SurvivalSimulation.Core
 
                 return true;
             }
-            else if (!Hero.IsAlive && enemy.IsAlive)
+            else if (!Hero.IsAlive)
             {
                 EndWindow.Log.Add($"{enemy.Name} killed the Hero with {enemy.Health} HP.");
 
